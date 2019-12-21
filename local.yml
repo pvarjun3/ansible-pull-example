@@ -1,6 +1,5 @@
 ---
-- hosts: all
-
+- hosts: 18.222.121.79
   tasks:
   - name: install example application
     copy: 
