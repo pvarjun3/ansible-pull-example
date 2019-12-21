@@ -1,5 +1,5 @@
 ---
-- hosts: 18.222.121.79
+- hosts: "{{variable_host}}"
   tasks:
   - name: install example application
     copy: 
